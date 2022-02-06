@@ -1,0 +1,4 @@
+There are some assets that are not included in the file (for example burger menu icon in the navbar).
+You can get those assets upon need directly from the figma file and add them to the file named general-assets so others can use them too,
+preferably with descriptive names.
+Aref.
