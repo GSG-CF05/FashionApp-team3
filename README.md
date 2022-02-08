@@ -1,6 +1,6 @@
 # FashionApp-team3 
 
-## You can check the app [here]().
+## You can check the app [here](https://gsg-cf05.github.io/FashionApp-team3/).
 
 
 ## Team Members:-
@@ -10,7 +10,9 @@
 - [Shatha K. Eqdaih](https://github.com/shathakh)
 - [Alaa Eid](https://github.com/AlaaEid-1) 
 
+## What is Fashion app?
 
+An Online premium clothing store for women which contains all their needs such as T-shirts, make-up, scarfs, jackets or coats. It can be accessed from both smartphones and laptops.
 ## Why we created this app?
 
 - To help women to buy clothes easily in the midst of the covid-19 pandemic from their home. 
@@ -19,9 +21,7 @@
 - You can access a lot of discounts.
 - It saves time and effort.
 
-## What is Fashion app?
-
-An Online premium clothing store for women which contains all their needs such as T-shirts, make-up, scarfs, jackets or coats. It can be accessed from both smartphones and laptops.  
+  
 
 ## How we've created it?
 
