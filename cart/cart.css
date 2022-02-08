@@ -1,0 +1,141 @@
+* {
+  font-weight: normal;
+  box-sizing: border-box;
+  font-family: "Tenor Sans", sans-serif;
+}
+html,
+body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100vh;
+}
+body {
+  margin-left: 15px;
+  padding: 0px 0px 4rem 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h2 {
+  letter-spacing: 5px;
+  font-size: 1.875rem;
+  margin-top: 10px;
+}
+.btn-style {
+  display: inline-block;
+  box-sizing: content-box;
+  border: 0px;
+  color: white;
+  padding: 10px 0px 0px 0px;
+}
+.btn-style img {
+  width: 2rem;
+}
+section {
+  margin: 5vh 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: top;
+}
+.img-container {
+  height: 100%;
+}
+.product-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p {
+  margin-top: 0px;
+  font-size: 0.8rem;
+  color: #555555;
+}
+h3 {
+  margin-bottom: 0.8rem;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+}
+.quantity img {
+  height: 1rem;
+}
+.counter {
+  display: inline-block;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+  margin: 0px 7px;
+}
+.pricing {
+  font-size: 1.1rem;
+  color: #dd8560;
+}
+.subtotal {
+  position: relative;
+  max-width: 600px;
+  margin-right: 10px;
+}
+.subtotal::before {
+  position: absolute;
+  content: "";
+  display: block;
+  background-color: black;
+  opacity: 0.4;
+  width: 97%;
+  height: 1px;
+  top: 0px;
+  left: 3%;
+}
+.sub-total {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-total h3 {
+  display: inline-block;
+  margin-right: 10px;
+}
+.note {
+  font-size: 1rem;
+  padding-right: 2rem;
+  color: #888888;
+}
+.buy-btn {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 3rem;
+  background-color: black;
+  border: 0px;
+  color: white;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+.buy-btn img {
+  position: relative;
+  height: 1.5rem;
+  margin-right: 1rem;
+  bottom: -5px;
+}
+@media (min-width: 768px) {
+  html{
+    font-size:24px
+  }
+  main{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .img-container img{
+      width:6rem;
+  }
+  .subtotal{
+    max-width: 768px;
+}
+}
+
