@@ -38,9 +38,10 @@ Throughout the developing process of the 'Fashion' app, we ,the 'Fashion' app de
 
 ## Final Result:-
 
-<p float="left">
-  <img src="https://i.ibb.co/0BVn4Mx/page1.jpg" width="400" />
-  <img src="https://i.ibb.co/2dTw862/page2.jpg" width="400" /> 
-  <img src="https://i.ibb.co/yW14g65/page3.jpg" width="400" />
-  <img src="https://i.ibb.co/L1WqQpy/page4.jpg" width="400" />
-</p>
+![Home page](https://user-images.githubusercontent.com/47992412/153046760-94b7859f-f339-4023-9cf1-df1048b00751.png)
+
+![more](https://user-images.githubusercontent.com/47992412/153046814-a2812a9f-1b7b-4b12-ae1a-8e24b0e3821a.png)
+
+![Product Detail (1)](https://user-images.githubusercontent.com/47992412/153046853-13969d33-228d-4064-915c-3ddadedc1395.png)
+
+![Cart](https://user-images.githubusercontent.com/47992412/153046877-46613764-cdaa-4488-8b15-d3d64c846807.png)
