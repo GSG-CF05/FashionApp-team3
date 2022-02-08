@@ -75,12 +75,12 @@ h3 {
   font-size: 1.1rem;
   color: #dd8560;
 }
-footer {
+.subtotal {
   position: relative;
   max-width: 600px;
   margin-right: 10px;
 }
-footer::before {
+.subtotal::before {
   position: absolute;
   content: "";
   display: block;
@@ -109,7 +109,7 @@ footer::before {
   bottom: 0px;
   left: 0px;
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   background-color: black;
   border: 0px;
   color: white;
@@ -134,7 +134,7 @@ footer::before {
   .img-container img{
       width:6rem;
   }
-  footer{
+  .subtotal{
     max-width: 768px;
 }
 }
