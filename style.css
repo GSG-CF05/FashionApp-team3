@@ -1,0 +1,210 @@
+/* google fonts  */
+
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+
+/* general styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* start header styles */
+header {
+  padding: 5px 10px;
+  background-color: #e6e9ee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  text-align: center;
+  line-height: 0.8em;
+  padding: 3px;
+  font-family: "Bodoni Moda", serif;
+  font-size: 1.2em;
+  color: #000;
+}
+@media (min-width: 768px) {
+  header {
+    padding: 5px 20px;
+  }
+}
+
+/* start land section styles  */
+.land-section {
+  background-image: url(assets/home-page/homepage1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 0%;
+  height: calc(100vh - 36.72px);
+  position: relative;
+}
+.land-section .land-text {
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 1.9em;
+  position: absolute;
+  left: 15%;
+  top: 38%;
+  letter-spacing: 2px;
+}
+.land-section .land-text span {
+  margin: 0 15px;
+}
+.land-section .land-btn {
+  background-color: #000;
+  opacity: 40%;
+  color: #fcfcfc;
+  font-family: "Tenor Sans", sans-serif;
+  padding: 10px 35px;
+  border-radius: 30px;
+  width: fit-content;
+  position: absolute;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 6%;
+}
+
+/* start new arrival styles  */
+
+.new-arrival {
+  width: 90%;
+  margin: auto;
+  font-family: "Tenor Sans", sans-serif;
+}
+.new-arrival h2 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+.new-arrival .arrival-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  /* width: 90%;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.new-arrival .arrival-list li a {
+  color: #888888;
+  font-size: 1.1em;
+}
+
+.new-arrival .arrival-list li a.active,
+.new-arrival .arrival-list li a:hover {
+  color: #212806;
+  position: relative;
+}
+.diamond,
+.new-arrival .arrival-list li a:hover {
+  position: relative;
+}
+.diamond::after,
+.diamond::before,
+.new-arrival .arrival-list li a:hover::after,
+.new-arrival .arrival-list li a:hover::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 4px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.diamond::after,
+.new-arrival .arrival-list li a:hover::after {
+  border-color: #dd8560 transparent transparent transparent;
+  bottom: -55%;
+}
+.diamond::before,
+.new-arrival .arrival-list li a:hover::before {
+  border-color: transparent transparent #dd8560 transparent;
+  bottom: -18%;
+}
+.arrival-title {
+  position: relative;
+}
+
+.arrival-title .line {
+  display: inline-block;
+  width: 120px;
+  height: 1px;
+  background-color: #dd8560;
+  position: absolute;
+  bottom: -18%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.arrival-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.arrival-cards .card {
+  width: 10.625em;
+  margin: 8px;
+}
+.arrival-cards .card p {
+  text-align: center;
+  font-size: 0.75em;
+  color: #333333;
+  line-height: 18px;
+}
+.arrival-cards .card figure img {
+  width: 100%;
+}
+.arrival-cards .card span {
+  display: block;
+  text-align: center;
+  color: #dd8560;
+  line-height: 24px;
+}
+.new-arrival .explore {
+  display: block;
+  margin: 30px 0;
+  text-align: center;
+  line-height: 24px;
+}
+.new-arrival .explore i {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* start media  */
+@media (min-width: 768px) {
+  .arrival-cards .card {
+    width: 14em;
+  }
+
+  .arrival-nav .arrival-list {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .arrival-cards .card {
+    width: 16em;
+  }
+  .land-section {
+    background-position: 70% 3%;
+  }
+}
